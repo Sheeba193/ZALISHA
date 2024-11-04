@@ -246,14 +246,14 @@ section button a span{
 /* Media Query for Larger Screens */
 @media (min-width: 1000px){
     .main-container{
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     section{
         flex-direction: row;
-        column-gap: 60px;
-        padding-top: 80px;
-        padding-bottom: 80px;
+        column-gap: 80px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     section p{
         font-size: 18px;
@@ -275,17 +275,20 @@ section button a span{
         width: 70%;
     }
     .greybg{
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     .greyishbg{
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     .section2{
         flex-direction: row-reverse;
     }
     .section4{
         flex-direction: row-reverse;
+    }
+    .minor-section2{
+        display: flex;
     }
 }

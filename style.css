@@ -452,6 +452,9 @@ section button a{
     font-weight: 600;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.minor-section2{
+    display: none;
+}
 footer{
     width: 100%;
     padding-top: 30px;
@@ -573,7 +576,8 @@ footer{
         align-items: center;
         column-gap: 20px;
         margin: auto;
-    
+        border-bottom: 2px solid var(--greyish);
+        box-shadow: 10px var(--greyish);
     
     }
     nav .main-navbar .logo{
@@ -636,17 +640,26 @@ footer{
         font-size: 20px;
         font-weight: 600;
     }
+    .main-section{
+        row-gap: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
     section{
+        height: 100vh;
         flex-direction: row;
-        column-gap: 10px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        column-gap: 0px;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     section .side-part{
         width: 40%;
         display: flex;
         flex-direction: column;
         row-gap: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     section .side-part h1{
         font-size: 40px;
@@ -667,6 +680,7 @@ footer{
     }
     section img{
         width: 50%;
+        height: 70%;
     }
     .section2{
         background-color: var(--grey);
@@ -714,7 +728,122 @@ footer{
         font-size: 20px;
         line-height: 24px;
     }
+    .minor-section{
+        display: none;
+    }
+    .minor-section2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        margin: auto;
+        width: 100%;
+        height: 70vh;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .minor-section2 h1{
+        width: 85%;
+        margin:auto;
+        font-size: 56px;
+        font-weight: 400;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: left;
+        color: var(--ink);
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .minor-section2-content{
+        width: 90%;
+        margin:auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 20%;
+    }
+    .logo-photo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+    .logo-photo img{
+        height: 90%;
+        width: 90%;
+    }
+    .minor-section2-content .side-part{
+        width: 30%;
+    }
+    .socials-list{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        
+    }
+    .socials-list ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .socials-list ul li{
+        box-sizing: border-box;
+        border: 1px solid var(--greyish);
+        border-radius: 4px;
+        padding: 10px 56px;
+        width: 100%;
+        font-size: 18px;
+    }
+    #linkedin{
+        background-color: #d7edfb;
+        color: var(--ink);
+    }
+    #linkedin a{
+        text-decoration: none;
+        background-color: #d7edfb;
+        color: var(--ink);
+    }
+    #instagram{
+        background-color: #b1f1e4;
+        color: var(--ink);
+    }
+    #instagram a{
+        text-decoration: none;
+        background-color: #b1f1e4;
+        color: var(--ink);
+
+    }
+    #facebook{
+        background-color: #4d3b6a;
+        color: var(--white);
+    }
+    #facebook a{
+        text-decoration: none;
+        background-color: #4d3b6a;
+        color: var(--white);
+    }
+    #tiktok{
+        background-color: #000000;
+        color: var(--white);
+    }
+    #tiktok a{
+        text-decoration: none;
+        background-color: #000000;
+        color: var(--white);
+    }
     footer{
+        display: none;
+    }
+
+    /* footer{
         padding-top: 40px;
         padding-bottom: 40px;
     }
@@ -726,7 +855,8 @@ footer{
     }
     .copyright{
         font-size: 18px;
-    }
+    } */
+    
     
     
 }
