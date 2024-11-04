@@ -577,7 +577,7 @@ footer{
         column-gap: 20px;
         margin: auto;
         border-bottom: 2px solid var(--greyish);
-        box-shadow: 10px var(--greyish);
+        box-shadow: 1px var(--greyish);
     
     }
     nav .main-navbar .logo{
