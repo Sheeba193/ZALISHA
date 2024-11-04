@@ -197,6 +197,20 @@ section button a span{
    
     .heading-content{
         width: 80%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .heading-content h3{
+        font-size: 16px;
+    }
+    .heading-content h3 span{
+        font-size: 17px;
+    }
+    .heading-content h1{
+        font-size: 30px;
+    }
+    .card-content h1{
+        font-size: 38px;
     }
     .main-container{
         width: 100%;
