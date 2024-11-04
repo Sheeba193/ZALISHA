@@ -37,7 +37,7 @@ body {
 }
 /* Default Styles for Mobile View */
 .intro-card{
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     width: 100%;
     background-image: url(./images/pat1.png);
     background-repeat: no-repeat;
