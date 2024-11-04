@@ -101,7 +101,7 @@ body {
   }
   
   /* Responsive Design for Larger Screens */
-  @media (min-width: 768px) {
+  @media (min-width: 760px) {
     .sign-in-card {
       padding: 30px;
     }
@@ -111,9 +111,9 @@ body {
     }
   }
   
-  @media (min-width: 1024px) {
+  @media (min-width: 1000px) {
     .sign-in-card {
-      width: 60%;
+      width: 40%;
       box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow */
     }
   

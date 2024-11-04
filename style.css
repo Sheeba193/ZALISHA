@@ -641,6 +641,74 @@ footer{
         font-size: 20px;
         font-weight: 600;
     }
+    /* Pop-Up Styling */
+/* .popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    z-index: 20;
+  }
+  
+  .signin-hover:hover .popup {
+    display: block;
+  }
+  
+  /* Positioning Elements in the Corners */
+  /* .popup-profile {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .popup-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    background-color: #3b9d5c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .popup-title {
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .popup-subtitle {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    font-size: 0.85em;
+    color: #666;
+  }
+  
+  .popup-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+  } */ */
     .main-section{
         row-gap: 20px;
         padding-top: 10px;
