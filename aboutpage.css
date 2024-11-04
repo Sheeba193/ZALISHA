@@ -243,5 +243,11 @@ body {
     .partners-photos{
         width: 50%;
     }
+    .minor-section{
+        display: none;
+    }
+    .minor-section2{
+        display: flex;
+    }
 }
 
