@@ -237,11 +237,38 @@ body {
 }
 
 @media(min-width:1000px){
+    .intro-card{
+        height: 60vh;
+    }
+    .card-content{
+        height: 70vh;
+    }
+    .card-content h1{
+        font-size: 48px;
+    }
+    .intro-buttons button{
+        padding: 14px 30px;
+        font-size: 20px;
+    }
     .partners-container{
         flex-direction: row;
     }
     .partners-photos{
         width: 50%;
+    }
+    .testimonials-container{
+        height: 60vh;
+        width: 100%;
+    }
+    .slider{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .testimonial-cards{
+        height: 40vh;
+        width: 100%;
+        
     }
     .minor-section{
         display: none;

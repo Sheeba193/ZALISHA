@@ -626,6 +626,12 @@ footer{
         text-align: center;
         color: var(--ink);
     }
+    .main-navbar .desktop-nav ul li:hover{
+        color: var(--green);
+    }
+    .main-navbar .desktop-nav ul li.active{
+        color: var(--green);
+    }
     .main-navbar .desktop-nav ul li a{
         text-decoration: none;
         text-transform: lowercase;
@@ -636,7 +642,7 @@ footer{
     .main-navbar .desktop-nav ul li a:hover{
         color: var(--green);
     }
-    .main-navbar .desktop-nav ul li a:focus{
+    .main-navbar .desktop-nav ul li a.active{
         color: var(--green);
     }
     .main-navbar .desktop-nav .socialMedia{
