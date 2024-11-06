@@ -108,7 +108,7 @@ nav{
     top: 0;
     left: 0;
     width: 270px;
-    height: 100%;
+    height: fit-content;
     background-color: var(--white);
     padding-top: 20px;
     transition: transform 0.3s ease;
@@ -202,7 +202,7 @@ nav{
 }
 #register button:hover{
     background-color: var(--greyish);
-    border-radius: 4px;
+       border-radius: 4px;
     border: 1px solid var(--border-color);
     box-sizing: border-box;
 }
@@ -237,6 +237,9 @@ nav{
     display: none;
 }
 .desktop-nav {
+    display: none;
+}
+.swiper.container{
     display: none;
 }
 .main-section{
@@ -574,7 +577,7 @@ footer{
         padding: 20px;
         justify-content: center;
         align-items: center;
-        column-gap: 20px;
+        column-gap: 18%;
         margin: auto;
         border-bottom: 2px solid var(--greyish);
         box-shadow: 1px var(--greyish);
@@ -587,15 +590,15 @@ footer{
         
     }
     nav .main-navbar a .logo img{
-        height: 56px;
-        width: 56px;
+        height: 80px;
+        width: 80px;
     }
     nav .main-navbar a .logo-text{
         height: fit-content;
     }
     nav .main-navbar a .logo-text h6{
-        line-height: 30px;
-        font-size: 28px;
+        line-height: 34px;
+        font-size: 34px;
     }
     nav .main-navbar a .logo-text p{
         line-height: 16px;
@@ -610,7 +613,7 @@ footer{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        column-gap: 24px;
+        column-gap: 30px;
         width: 100%;
         list-style: none;
     }
@@ -633,90 +636,26 @@ footer{
     .main-navbar .desktop-nav ul li a:hover{
         color: var(--green);
     }
+    .main-navbar .desktop-nav ul li a:focus{
+        color: var(--green);
+    }
     .main-navbar .desktop-nav .socialMedia{
         display: none;
     }
     #register button{
+    
         font-size: 20px;
         font-weight: 600;
     }
-    /* Pop-Up Styling */
-/* .popup {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 300px;
-    height: 250px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    padding: 15px;
-    z-index: 20;
-  }
-  
-  .signin-hover:hover .popup {
-    display: block;
-  }
-  
-  /* Positioning Elements in the Corners */
-  /* .popup-profile {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .popup-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 8px 12px;
-    background-color: #3b9d5c;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .popup-title {
-    position: absolute;
-    bottom: 60px;
-    left: 10px;
-    font-size: 1em;
-    color: #333;
-  }
-  
-  .popup-subtitle {
-    position: absolute;
-    bottom: 30px;
-    left: 10px;
-    font-size: 0.85em;
-    color: #666;
-  }
-  
-  .popup-image {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    width: 80px;
-    height: auto;
-    object-fit: cover;
-  } */ */
     .main-section{
         row-gap: 20px;
         padding-top: 10px;
         padding-bottom: 20px;
     }
     section{
-        height: 100vh;
+        height: 90vh;
         flex-direction: row;
-        column-gap: 0px;
+        column-gap: 5%;
         align-items: center;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -730,12 +669,12 @@ footer{
         padding-bottom: 30px;
     }
     section .side-part h1{
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 56px;
+        line-height: 56px;
     }
     section .side-part h2{
-        font-size: 34px;
-        line-height: 36px;
+        font-size: 44px;
+        line-height: 45px;
         width: 90%;
     }
     section .side-part h3{
@@ -747,7 +686,7 @@ footer{
         line-height: 24px;
     }
     section img{
-        width: 50%;
+        width: 40%;
         height: 70%;
     }
     .section2{
@@ -761,7 +700,7 @@ footer{
     }
     .minor-section{
         flex-direction: row;
-        column-gap: 20px;
+        column-gap: 10%;
         margin: auto;
         width: 100%;
         justify-content: center;
@@ -776,8 +715,8 @@ footer{
         padding-bottom: 60px;
     }
     .minor-section .side-part h1{
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 48px;
+        line-height: 48px;
         width: 80%;
     }
     .minor-section .side-part address{
@@ -800,19 +739,19 @@ footer{
         display: none;
     }
     .minor-section2{
-        display: flex;
+        display: none;
         flex-direction: column;
         row-gap: 20px;
         margin: auto;
         width: 100%;
-        height: 70vh;
+        height: 90vh;
         align-items: flex-start;
         justify-content: center;
         padding-top: 40px;
         padding-bottom: 40px;
     }
     .minor-section2 h1{
-        width: 85%;
+        width: 80%;
         margin:auto;
         font-size: 56px;
         font-weight: 400;
@@ -823,30 +762,46 @@ footer{
         cursor: pointer;
     }
     .minor-section2-content{
-        width: 90%;
+        width: 80%;
         margin:auto;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-        column-gap: 20%;
+        justify-content: center;
+        column-gap: 10%;
     }
     .logo-photo{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 30%;
+        width: 40%;
     }
     .logo-photo img{
-        height: 90%;
-        width: 90%;
+        height: 80%;
+        width: 80%;
+    }
+    .logo-photo .copyright{
+        font-size: 18px;
     }
     .minor-section2-content .side-part{
         width: 30%;
     }
+    .minor-section2-content .side-part address{
+        font-size: 20px;
+        line-height: 24px;
+        width:80%;
+        margin-bottom: 20px;
+    }
+    .minor-section2-content .side-part  .info-buttons{
+        margin-top: 20px;
+    }
+    .minor-section2-content .side-part .info-buttons button{
+        width: 80%;
+        margin-top: 6px;
+    }
     .socials-list{
-        width: 40%;
+        width: 30%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -860,7 +815,7 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        row-gap: 10px;
+        row-gap: 20px;
     }
     .socials-list ul li{
         box-sizing: border-box;
@@ -928,11 +883,14 @@ footer{
     
     
 }
-@media (min-width: 1400px){
-    /* .navbar{
-        width: 100%;
-        margin: auto;
-    } */
+@media (min-width: 1200px){
+    nav{
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 999;
+        height: 80px;
+    } 
     .main-navbar{
         width: 100%;
         margin: auto;
@@ -958,4 +916,52 @@ footer{
     .main-navbar .desktop.nav{
         width: 82%;
     }
+    
+    .main-section{
+        display: none;
+    }
+    .minor-section{
+        display: none;
+    }
+    .minor-section2{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    /* Set Swiper container and slide dimensions */
+.swiper-container {
+    width: 100%;
+    height: 95vh; /* Full screen height for each slide */
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+  }
+  
+  .card {
+    width: 100%;
+    /* max-width: 800px; */
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Add styles for individual sections, images, and text */
+  .side-part {
+    padding: 20px;
+  }
+  
+  .side-part h1, .side-part h2, .side-part h3 {
+    margin: 10px 0;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
 }
