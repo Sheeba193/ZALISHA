@@ -573,7 +573,7 @@ footer{
     nav .main-navbar {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        width: 90%;
         padding: 20px;
         justify-content: center;
         align-items: center;
