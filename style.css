@@ -575,9 +575,9 @@ footer{
         flex-direction: row;
         width: 100%;
         padding: 20px;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        column-gap: 10%;
+        column-gap: 120%;
         margin: auto;
         border-bottom: 2px solid var(--greyish);
         box-shadow: 1px var(--greyish);
