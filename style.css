@@ -613,7 +613,7 @@ footer{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        column-gap: 30px;
+        column-gap: 20px;
         width: 100%;
         list-style: none;
     }
@@ -898,7 +898,7 @@ footer{
         height: 80px;
     } 
     .main-navbar{
-        width: 100%;
+        width: 90%;
         margin: auto;
         justify-content: space-between;
     }
