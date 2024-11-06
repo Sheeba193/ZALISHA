@@ -577,7 +577,7 @@ footer{
         padding: 20px;
         justify-content: center;
         align-items: center;
-        column-gap: 20px;
+        column-gap: 10%;
         margin: auto;
         border-bottom: 2px solid var(--greyish);
         box-shadow: 1px var(--greyish);
@@ -614,7 +614,7 @@ footer{
         align-items: center;
         justify-content: center;
         column-gap: 20px;
-        width: 90%;
+        width: 100%;
         list-style: none;
     }
 
