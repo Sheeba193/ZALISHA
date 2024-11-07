@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="aboutpage.css">
+    <!-- <link rel="stylesheet" href="solutions.css"> -->
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>ZALISHA HOME PAGE</title>
@@ -248,26 +249,26 @@
     
     <!-- Swiper Initialization Script -->
     <script>
-    if(document.getElementById('home')){
-        const swiper = new Swiper('.swiper-container', {
-        direction: 'vertical',
-        loop: true,
-    
-        // Enable pagination
-        pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamicBullets: true,
-        },
-    
-        // Optional: Autoplay settings
-        autoplay: {
-        delay: 3000,
-        },
-    });
-    }
-    
+        if (document.getElementById('home') && window.innerWidth >= 1000) {
+            const swiper = new Swiper('.swiper-container', {
+                direction: 'vertical',
+                loop: true,
+        
+                // Enable pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                    dynamicBullets: true,
+                },
+        
+                // Optional: Autoplay settings
+                autoplay: {
+                    delay: 3000,
+                },
+            });
+        }
     </script>
+        
   
 
 
@@ -314,7 +315,7 @@
         </div>
         
     </div>
-    <!-- <div class="minor-section2">
+    <div class="minor-section2">
         
         <h1>Experiment with us <span>&#8594;</span></h1>
         <div class="minor-section2-content">
@@ -347,7 +348,7 @@
             </div>
         </div>
         
-    </div> -->
+    </div> 
 
     <footer>
         <div class="footer-list">
