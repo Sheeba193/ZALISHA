@@ -575,9 +575,9 @@ footer{
         flex-direction: row;
         width: 100%;
         padding: 20px;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        column-gap: 120%;
+        column-gap: 20%;
         margin: auto;
         border-bottom: 2px solid var(--greyish);
         box-shadow: 1px var(--greyish);
@@ -898,9 +898,9 @@ footer{
         height: 80px;
     } 
     .main-navbar{
-        width: 90%;
+        width: 100%;
         margin: auto;
-        justify-content: space-between;
+        /* column-gap: 10%; */
     }
     .main-navbar .logo{
         width: 18%;
@@ -920,7 +920,13 @@ footer{
         font-size: 14px;
     }
     .main-navbar .desktop.nav{
-        width: 82%;
+        width: 90%;
+    }
+    .main-navbar .desktop-nav ul{
+        column-gap: 30px;
+    }
+    .main-navbar .desktop-nav ul li{
+        font-size: 20px;
     }
     
     .main-section{
